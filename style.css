@@ -1,0 +1,394 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+ 
+    font-family: 'montserrat';
+}
+html,body{
+    font-size: 62.5%;
+    height: 100%;
+    width: 100%;
+
+}
+nav{
+    height: 9vh;
+    width: 100%;
+    display: flex;
+    /* background-color: white; */
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 7%;
+    padding-left: 7%;
+    color: black;
+    font-size: 1vw;
+    z-index: 99;
+    position: fixed;
+    /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+
+}
+ #nav-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+    /* border: 2px solid; */
+    width: 45%;
+
+    margin-left: 150px;
+}
+#nav-items h1{
+    font-size: 1.2vw;
+    font-weight: 500;
+}
+ #nav-btn{
+font-size: 2rem;
+display: flex;
+gap:2vw;
+/* position: relative; */
+right:6%;
+/* border:2px solid; */
+} .btn{
+    font-size: 1vw;
+    background-color: black;
+    color: white;
+   padding-left:20px;
+   padding-right: 20px;
+   border-radius: 1vw;
+   font-weight: 500;
+   padding-top: 5px;
+   padding-bottom: 5px;
+   border: none;
+}
+.main{
+   height: 100%;
+   width:100%
+}
+.page1{
+    height: 100vh;
+    width:100%;
+    background-image: url("portrait-corporate-woman-holding-clipboard-work-standing-formal-outfit-white-backgroun.jpg");
+    background-position: center;
+    background-size: cover;
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    /* margin-left: 7%; */
+    padding-left: 7%;
+
+    
+
+  
+    
+}
+.page1 h1{
+    font-size: 4vw;
+    font-weight: 400;
+    margin-top: 10%;
+    
+    
+
+}
+.page1 h1 span{
+    color:#ffffff;
+    font-size: 3vw;
+    background-color: rgb(0, 0, 0);
+    border-radius: 20px;
+    padding: 5px;
+} 
+ .page1 p{
+    width:40%;
+    font-size: 0.9vw;
+} 
+ .page1 button{
+    padding: 7px;
+    width: 11vw;
+    font-size: 1.2vw;
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+    position: relative;
+    
+    transition: all linear 0.3s;
+    
+
+}
+.page1 button:hover{
+    background-color: white;
+    color: black;
+
+
+} 
+.page2{
+    height: 70vh;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 7%;
+    padding-right: 7%;
+    
+
+}
+.page2 .box-cont{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1vw;
+    gap:5%;
+
+
+
+}
+.txt-cont{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 1.5vw;
+}
+.box{
+    background-color: rgb(251, 250, 250);
+    height:23vh;
+    margin-top: 3%;
+    color: rgb(0, 0, 0);
+    width:20%;
+    padding-left: 15px;
+    padding-right: 12px;
+    padding-top: 20px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+    font-family: "montserrat";
+    transition: all linear 0.3s;
+
+}
+.box h3{
+    font-size: 0.7vw;
+    width:100%;
+    font-weight: 300;
+   
+    
+}
+.box h1{
+    font-size: 1.1vw;
+    font-weight: 800;
+   
+
+}
+.box i{
+    font-size: 2.5vw;
+    font-weight: 100;
+   
+   
+}
+.box:hover{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.txt-cont h2{
+    color:rgb(191, 191, 191);
+    font-size: 2vw;
+    font-weight: 500;
+    /* font-family: "monserrat"; */
+    margin-bottom: 10px;
+}
+.txt-cont h1{
+    font-weight: 600;
+    font-size: 2.5vw;
+    /* font-family: "monserrat"; */
+}
+.page3{
+    min-height: 120vh;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.pg-3-txt{
+    text-align: center;
+    /* border:2px solid; */
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    
+    
+
+    
+}
+.pg-3-txt h1{
+    font-size: 3vw;
+}
+.pg-3-txt p{
+    font-size: 1vw;
+    margin-top: 19px;
+    width: 60%;
+    /* border:2px solid; */
+    margin-left: 18%;
+
+
+}
+.pg3-smallbox{
+    margin-top: 30px;
+    
+
+}
+.smallbox{
+    display: flex;
+    font-size: 0.7vw;
+    gap:40px;
+    /* width:50% */
+    
+    
+}
+.smallbox h1{
+    background-color: rgb(251, 250, 250);
+    color: rgb(0, 0, 0);
+    /* width:50%; */
+    padding-top:10px;
+    padding-bottom: 10px;
+    padding-right:20px;
+    padding-left: 20px;
+    border-radius: 20px;
+}
+.pg3-bigbox{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 7%;
+    padding-left: 7%;
+    gap:30px;
+    margin-top: 60px;
+    flex-wrap: wrap;
+    width:100%;
+
+}
+.bigbox{
+    background-color: rgb(251, 250, 250);
+    height: 39vh;
+    width: 20%;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+  
+}
+.bigbox h1{
+    font-size: 1.3vw;
+    margin-top: 20px;
+    
+}
+.bigbox p{
+    margin-top: 10px;
+    font-size: 0.8vw;
+    width: 90%;
+}
+.bigbox h2{
+    font-size: 1vw;
+    margin-top: 10px;
+}
+.bigbox button{
+    width:100%;
+    margin-top: 15px;
+    padding: 4px;
+    color: white;
+    background-color: rgb(51, 50, 50);
+    border-radius: 20px;
+    transition: all linear 0.6s;
+}
+.bigbox button:hover{
+    background-color: white;
+    color:black;
+    border: 1px solid;
+}
+.page4{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    
+    align-items: center;
+    flex-direction: column;
+    /* background-color: rgb(231, 230, 230); */
+}
+.page4 img{
+    height:45vh;
+    width: 75%;
+    margin-top: 50px;
+    
+}
+.page4 h1{
+    font-size: 3vw;
+    margin-top: 9%;
+    font-weight: 500;
+}
+
+
+.bigbox img{
+    height: 40px;
+    border-bottom: 1px solid;
+
+}
+footer{
+    height: 50vh;
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+   
+   
+}
+footer div{
+   
+    height: 30vh;
+    margin-left: 7%;
+    margin-top: 7%;
+    
+}
+.logo{
+    width: 30%;
+    
+}
+.logo h1{
+    font-size: 4vw;
+}
+.logo p{
+    width:65%;
+    font-size: 1vw;
+    margin-top: 5px;
+    font-weight: 200;
+}
+.comp{
+    font-size: 0.8vw;
+}
+.comp h2{
+    margin-top: 6px;
+    font-weight: 400;
+}
+.comp h1{
+    margin-bottom: 5px;
+}
+.plat{
+    font-size: 0.8vw;
+
+}
+.plat h2{
+    margin-top: 6px;
+    font-weight: 400;
+
+}
+.follow{
+    font-size: 0.8vw;
+}
+.follow span{
+    font-weight: 900;
+}
+.follow h1{
+    font-weight: 400;
+    margin-top: 6px;
+}
+
